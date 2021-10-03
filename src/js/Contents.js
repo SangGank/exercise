@@ -14,7 +14,7 @@ function Contents() {
         <ul className={contents["profile-right"]}>
           <li className={contents.li}>
             <ul className={contents["profile-r"]}>
-              <li className={contents["profile-id"]}>박박</li>
+              <li className={contents["profile-id"]}>박2</li>
               <li className={contents["profile-character"]}>3인턴 구직자</li>
             </ul>
           </li>
