@@ -1,0 +1,17 @@
+.main {
+  background: #f7f7f7;
+  display: flex;
+  font-size: 14px;
+  font-family: "Pretendard-Regular", sans-serif;
+  color: #333;
+  font-weight: 400;
+}
+.total {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+}

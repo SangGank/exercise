@@ -1,0 +1,22 @@
+.footer {
+  background-color: #45415c;
+  position: fixed;
+  bottom: 0;
+  /* top: 0으로하면 위에 딱붙고
+       bottom: 0으로하면 아래에 딱붙음 */
+  width: 100%;
+  /*position: absolute, fixed로하면 가로길이가 
+    부모요소->자식요소로 맞춰짐, width: 100%f로 해결 */
+}
+
+.section {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  color: #999999;
+}
+
+.section > div {
+  margin: 5px 0;
+  /* 마진 충돌을 오히려 활용 */
+}
